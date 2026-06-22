@@ -1,0 +1,33 @@
+body {
+    background-color: #666;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.A {
+    color: #5e1313;
+}
+.B{
+    color: #6e1818;
+
+}
+.C{
+     border: 1px   solid   #300030;
+    margin-left: 5  px;
+    border-radius: 4px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0px 5px 10px #200020;
+}
+.D {
+       color: #5e1313;
+}
+.E{
+     border: 1px   solid   #300030;
+    margin-left: 10px;
+    border-radius: 8px;
+    padding: 2px;
+    text-align: center;
+    box-shadow: 0px 10px 20px #200020;
+}
+a{
+    color: #ff0000;
+}
