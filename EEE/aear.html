@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+        <h1>uma mk </h1>
+        <script>
+            let p=[1000,5000,8000,12000,16000] ;
+            let ma=["s w","h u","s s","s sk","mu"] ;
+            let name= ["ตัวละ","ตัวละ","ตัวละ","ตัวละ","ตัวละ"] ;
+            let q =[3,5,7,8,10];
+            let totol=0;
+            let sum =0;
+            document.write("<table border=0.1>");
+                document.write("<tr><th>ราคา</th><th>ชื่อม้า</th><th>จำนวณ</th><th>รวม</th></tr>")
+            for(i=0;i<ma.length;i++){
+                totol=p[i] * q[i] ;
+                 sum+=totol ;
+                document.write("<tr> <td><img src = 'img / ",i+1,".png'width=50> </td>",ma[i],"</td><td>ราคา</td><td>จำนวณ</td><td>รวม</td><tr>");
+            }
+            document.write("")
+            document.write("<h2>รวมทั้งหมด",sum,"บาท</h2>") ;
+        </script>
+    </body>     
+</html>

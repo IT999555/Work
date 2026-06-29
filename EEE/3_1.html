@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head></head>
+    <body>
+         <h1> 3.1 </h1>
+         <img src="Screenshot 2026-06-13 125450.png" alt="man">
+
+         <script src="sk.js"></script>
+         <script> 
+         
+            let student = "คาราบาว" ;
+            let mark1= 67;
+            let mark2=68;
+            let mark3 =69;
+            
+            document.write("<h2>",student,"<your ponet>",mark1,"<h2>");   
+            document.write("<h2>",student,"<your ponet>",mark2,"<h2>");
+            document.write("<h2>",student,"<your ponet>",mark3,"<h2>");
+
+            let mark4 = ((mark1+mark2+mark3)/3); 
+
+            
+                    let grade=null;
+                    if(mark4<=50){
+                        grade = "E"
+                    }else if(mark4<=60){
+                        grade = "D"
+                    }else if(mark4<=70){
+                        grade = "C"
+                    }else if(mark4<=80){
+                        grade = "B"
+                    }else {grade = "A"} 
+                 document.write("<h2>",student,"ได้รับ พอยน์ : " ,grade,"</h2>");                   
+         </script>
+    </body>
+</html>
